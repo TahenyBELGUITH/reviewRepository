@@ -1,0 +1,68 @@
+body
+{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color:rgba(3, 3, 3, 0.911);
+}
+nav
+{
+    position: fixed;
+    background-color: rgb(145, 26, 26);
+    border: solid 1px green;
+    width:98.8% ;
+    height:auto;
+    display: inline-block;
+}
+ul
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    right:0%;
+    top:0%;
+    font-size: large;
+    font-weight: bold;
+}
+a{color:white;}
+
+#welcome-section
+{
+    border : 1px solid red;
+    width: 100%;
+    /*631 to be close to 629*/
+    min-height: 627px;
+    max-height: 100vh;
+    font-style:cursive ;
+    text-align: center;
+    background-color:rgba(3, 3, 3, 0.911);
+}
+@media (max-width: 720px) 
+{
+    #welcome-section
+    {
+        width :auto;
+        max-height: 100vh;
+        font-size: small;
+
+    }
+}
+#welcome-section h1
+{
+    color:whitesmoke;
+    margin-top: 20%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:50px;
+}
+.projects
+{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    border:solid 1px blue;
+    background-color:black;
+    margin-top: 10px;
+}
